@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2.0,
+  "id": "zabbix-ai-assistant",
+  "name": "Zabbix AI Assistant",
+  "version": "0.1.0",
+  "namespace": "ZabbixAIAssistant",
+  "author": "Local Operations Team",
+  "description": "Read-only AI summaries of current Zabbix problems.",
+  "actions": {
+    "ai.assistant": {
+      "class": "Assistant",
+      "view": "ai.assistant"
+    }
+  }
+}
